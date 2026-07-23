@@ -1,0 +1,54 @@
+Meeting Title: AI Resume Screening System Enhancement
+
+Date: 25 July 2026
+
+--------------------------------
+
+Executive Summary
+
+The meeting focused on enhancements to the AI Resume Screening System prior to its next release. Key discussion areas included expanding AI report details, adding a side-by-side candidate comparison feature, storing screening reports in a database, improving PDF parsing/OCR for scanned resumes, enhancing error handling, and securing personal candidate data through encryption. A development and deployment schedule was established.
+
+--------------------------------
+
+Key Discussion Points
+
+- Recruiter feedback requesting more detailed explanations for candidate evaluation and a multi-candidate comparison tool.
+- AI prompt modifications to include match scores, strengths, missing skills, weaknesses, improvement suggestions, and hiring recommendations.
+- Moving report storage from temporary files to a permanent database.
+- Issues with unusual formatting and scanned PDFs requiring improved text extraction and OCR testing.
+- Replacing silent system failures with clear error messages.
+- Security and privacy concerns regarding personal information in resume data.
+
+--------------------------------
+
+Decisions Made
+
+- AI prompts will be updated to generate consistent reports (Candidate Summary, Skill Match, Missing Skills, Strengths, Weaknesses, Hiring Recommendation).
+- Backend will store screening reports in the database for recruiter access.
+- A side-by-side candidate comparison page will be created showing scores, skills, education, certifications, and experience.
+- Improved error handling will be implemented to show clear error messages when resume processing fails.
+- Stored files will be encrypted, and access will be restricted to authorized users.
+
+--------------------------------
+
+Action Items
+
+- Chaitanya: Complete AI prompt updates today, prepare sample resumes for testing, and research/test PDF parsing and OCR libraries for image-based resumes.
+- Vikram: Update the backend to store screening reports in the database and build the candidate comparison page.
+- Neha: Create a comprehensive test plan to verify new features and text extraction before deployment.
+
+--------------------------------
+
+Risks
+
+- Unusually formatted or scanned PDF resumes failing to process or extract text properly.
+- Security vulnerabilities and data exposure if candidate personal information is not encrypted or properly restricted.
+
+--------------------------------
+
+Next Steps
+
+- Complete all development by Wednesday.
+- Begin comprehensive testing on Thursday.
+- Hold a follow-up meeting after testing is completed.
+- Target release of the updated version next week.

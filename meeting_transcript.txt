@@ -1,0 +1,46 @@
+Meeting Title: AI Resume Screening System Enhancement
+
+Date: 25 July 2026
+
+Participants:
+- Chaitanya (AI Engineer)
+- Anjali (HR Manager)
+- Vikram (Backend Developer)
+- Neha (QA Engineer)
+- Suresh (Project Manager)
+
+Meeting Transcript:
+
+Suresh: Good morning, everyone. Today's meeting is about improving our AI Resume Screening System before the next release.
+
+Anjali: The HR team has received positive feedback from recruiters. However, they want more detailed explanations for why a candidate is shortlisted or rejected.
+
+Chaitanya: We can modify the AI prompt so that Gemini provides a matching score along with strengths, missing skills, and improvement suggestions for each candidate.
+
+Vikram: I'll update the backend to store screening reports in the database instead of temporary files. This will allow recruiters to access previous reports whenever needed.
+
+Neha: During testing, I noticed that some resumes with unusual formatting are not being processed correctly. We need to improve text extraction for scanned PDF documents.
+
+Chaitanya: That's a good point. I'll research better PDF parsing libraries and test OCR support for image-based resumes.
+
+Anjali: Another requested feature is allowing recruiters to compare multiple candidates for the same job role.
+
+Vikram: We can create a comparison page where recruiters can view candidate scores, technical skills, education, certifications, and work experience side by side.
+
+Neha: We should also improve error handling. If a resume cannot be processed, the system should display a clear error message instead of failing silently.
+
+Suresh: Security is also important. Resume data contains personal information, so we must encrypt stored files and restrict access to authorized users only.
+
+Chaitanya: I'll update the AI prompts to generate more consistent reports with sections such as Candidate Summary, Skill Match, Missing Skills, Strengths, Weaknesses, and Hiring Recommendation.
+
+Anjali: That will make the reports much easier for recruiters to understand.
+
+Suresh: Let's complete development by Wednesday, begin testing on Thursday, and release the updated version next week.
+
+Chaitanya: I'll finish the AI improvements today and prepare several sample resumes for testing.
+
+Neha: I'll create a comprehensive test plan to verify the new features before deployment.
+
+Suresh: Excellent work, everyone. Let's stay on schedule and meet again after testing is complete.
+
+Meeting Ended.
